@@ -1,10 +1,10 @@
 # Hate Speech Detection - Local Inference
 
-This repository contains example code for performing local inference using Hugging Face's transformers models. This can be used for almost every existing model as also for some Hate Speech Detection ones.
+This repository contains example code for performing local inference using Hugging Face's transformer models. This can be used for almost every existing model as well as for some Hate Speech Detection ones.
 
-Often running LLMs on a CPU can be quite slow, luckily there is the ONNX runtime which can often provide a 2-3x speedup. There is some examle code to run a model with onnx and also with simple pytorch.
+Often, running large language models (LLMs) on a CPU can be quite slow. Fortunately, the ONNX runtime can often provide a 2-3x speedup. There is some example code to run a model with ONNX and also with simple PyTorch.
 
-If you have a Nvidia GPU or an Apple Silicon mac, you can have even faster inference. Some setup tutorial is also at the bottom.
+If you have an NVIDIA GPU or an Apple Silicon Mac, you can achieve even faster inference. Setup tutorials are also provided at the bottom.
 
 ## Install ONNX Runtime 
 
