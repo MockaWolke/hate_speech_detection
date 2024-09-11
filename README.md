@@ -12,7 +12,7 @@ Verify your install:
 
 If you have linux you can start with our environment:
 
-``` conda create --file onnx_env.yml  ```
+``` conda env create --f onnx_env.yml  ```
 
 
 It might not work on another operating system or machine. If so you can follow these steps manually.
