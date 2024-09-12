@@ -8,14 +8,6 @@ If you have an NVIDIA GPU or an Apple Silicon Mac, you can achieve even faster i
 
 ## Install ONNX Runtime 
 
-Verify your install:
-
-If you have linux you can start with our environment:
-
-``` conda env create --f onnx_env.yml  ```
-
-
-It might not work on another operating system or machine. If so you can follow these steps manually.
 
 ```
 conda create -n hsd -y
