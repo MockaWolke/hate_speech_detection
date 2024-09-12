@@ -15,13 +15,12 @@ conda activate hsd
 conda install python==3.10 
 
 On linux:
-pip install -U torch torchvision --index-url https://
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
 
 Other:
-pip install -U torch torchvision --index-url https://
+pip install -U torch torchvision
 
-
-download.pytorch.org/whl/cpu pip install transformers optimum[exporters,onnxruntime]
+pip install transformers optimum[exporters,onnxruntime]
 ```
 
 ## Exporting a Model to ONNX
